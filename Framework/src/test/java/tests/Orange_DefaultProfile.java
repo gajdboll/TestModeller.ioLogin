@@ -14,14 +14,14 @@ import utilities.testmodeller.TestModellerLogger;
 
 //https://herokuapp.cloud.testinsights.io/app/#!/model-engine/guid/99b96bac-919c-41d2-aef9-6a319132677a
 @Listeners(TestNGListener.class)
-@TestModellerSuite(id = 86, profileId = 100081)
+@TestModellerSuite(id = 87, profileId = 100081)
 public class Orange_DefaultProfile extends TestBase
 {
     
 
     
     @Test  (groups= {"Orange","Orange - Default Profile"})
-    @TestModellerPath(guid = "a647e35b-5f81-4db5-be7d-1791ac2d6351")
+    @TestModellerPath(guid = "640b96ed-4668-410d-912a-cc6907a29628")
     public void GoToUrlIentertxtUsername1inthetxtUsernameIentertxtPassword2inthetxtPasswordIclickonLOGIN()
     {
         
@@ -39,7 +39,7 @@ public class Orange_DefaultProfile extends TestBase
 
 
     @Test  (groups= {"Orange","Orange - Default Profile"})
-    @TestModellerPath(guid = "5286d7e2-ec3e-4b00-b823-60f909b1363c")
+    @TestModellerPath(guid = "146e074c-1796-47ea-848c-a9d7bf7c75c2")
     public void GoToUrlIentertxtUsername1inthetxtUsernameIentertxtPassword2inthetxtPasswordIclickonLOGIN1()
     {
         
@@ -57,7 +57,7 @@ public class Orange_DefaultProfile extends TestBase
 
 
     @Test  (groups= {"Orange","Orange - Default Profile"})
-    @TestModellerPath(guid = "05aca735-22b4-4add-9cf3-c43b79599243")
+    @TestModellerPath(guid = "5f11ea25-dd95-4e77-87bd-fd27af41f074")
     public void GoToUrlIentertxtUsername1inthetxtUsernameIentertxtPassword2inthetxtPasswordIclickonLOGIN2()
     {
         
