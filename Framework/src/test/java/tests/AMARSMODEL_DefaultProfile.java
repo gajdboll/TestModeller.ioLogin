@@ -14,14 +14,14 @@ import utilities.testmodeller.TestModellerLogger;
 
 //https://herokuapp.cloud.testinsights.io/app/#!/model-engine/guid/f835385e-d1de-411a-a332-0ec3e277092d
 @Listeners(TestNGListener.class)
-@TestModellerSuite(id = 102, profileId = 100090)
+@TestModellerSuite(id = 103, profileId = 100090)
 public class AMARSMODEL_DefaultProfile extends TestBase
 {
     
 
     
     @Test  (groups= {"AMARS MODEL","AMARS MODEL - Default Profile"})
-    @TestModellerPath(guid = "78c37e38-d4b4-43a0-bc8e-e12506827f53")
+    @TestModellerPath(guid = "6387288b-085c-4602-8ab2-a51919dd6fb1")
     public void GoToUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginsUCCESS()
     {
         
@@ -45,7 +45,7 @@ public class AMARSMODEL_DefaultProfile extends TestBase
     }
 
     @Test  (groups= {"AMARS MODEL","AMARS MODEL - Default Profile"})
-    @TestModellerPath(guid = "db655e0c-b384-4e79-9a13-2d3cb6367b32")
+    @TestModellerPath(guid = "aa16d93d-e18b-498e-9421-0632eb778b69")
     public void GoToUrlPositiveEnterUsernameNegativeEnterPasswordClickLoginFAILED()
     {
         
@@ -69,7 +69,7 @@ public class AMARSMODEL_DefaultProfile extends TestBase
     }
 
     @Test  (groups= {"AMARS MODEL","AMARS MODEL - Default Profile"})
-    @TestModellerPath(guid = "91724a0b-86a5-47e5-96eb-9f026ab39377")
+    @TestModellerPath(guid = "067c30c0-e2e4-480b-b67d-9facfb7b6ed5")
     public void GoToUrlNegativeEnterUsernamePositiveEnterPasswordClickLoginFAILED()
     {
         
@@ -93,7 +93,7 @@ public class AMARSMODEL_DefaultProfile extends TestBase
     }
 
     @Test  (groups= {"AMARS MODEL","AMARS MODEL - Default Profile"})
-    @TestModellerPath(guid = "1f27e5ae-66e6-41c9-bf9d-32bcc3d2c92e")
+    @TestModellerPath(guid = "ad0fb6c9-402b-4ed8-b21e-ed24c24a8d32")
     public void GoToUrlNegativeEnterUsernameNegativeEnterPasswordClickLoginFAILED()
     {
         
